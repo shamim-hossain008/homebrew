@@ -1,0 +1,30 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #2E2A24;
+  color: #F8D094;
+  
+}
+.heading1{
+    color: #F8D094;
+    font-size: 420%;
+    margin-bottom: 10px;
+
+}
+.heroSection{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}
+.search{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px ;
+    font-size: 15px;
+}
+.language{
+    padding: 5px 40px;
+    margin-top: 4px;
+}
