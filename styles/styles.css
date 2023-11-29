@@ -19,55 +19,29 @@ body {
   text-align: center;
 }
 p {
-  font-size: 14px;
+  font-size: 15px;
 }
 .search {
   width: 250px;
   height: 30px;
   border-radius: 5px;
   font-size: 15px;
+  padding: 0 12px 0 25px;
 }
 .language {
   padding: 5px 40px;
-  margin-top: 4px;
+  margin-top: 5px;
 }
 a {
   color: #f8d094;
 }
 
-section.information {
-  border-top: 1px solid rgba(0, 0, 0, 0.5);
-  text-align: center;
-}
-li {
-  display: list-item;
-}
 h2 {
   font-size: 50px;
   text-align: center;
   justify-content: center;
   line-height: 1.1;
   margin: 0 0 0.1em;
-}
-
-.Group {
-  display: block;
-}
-
-.question {
-  color: white;
-  text-align: center;
-  justify-content: center;
-  
-}
-.brew {
-  text-align: center;
-}
-section.footer {
-  justify-content: center;
-  text-align: center;
-  padding-top: 2px;
-  font-size: 80%;
 }
 
 .info-container {
@@ -88,4 +62,43 @@ section.footer {
 
 .content-1 {
   width: 50%;
+}
+.col-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.col-2 {
+  width: 50%;
+}
+h3 {
+  font-size: 50px;
+  text-align: center;
+  justify-content: center;
+}
+ul {
+  list-style: none;
+}
+li {
+  text-align: center;
+  justify-content: center;
+}
+h5 {
+  font-size: 20px;
+  border-radius: 5px;
+  margin-right: 43%;
+  margin-left: 38%;
+  background-color: rgb(81, 61, 35);
+}
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+section.footer {
+  justify-content: center;
+  text-align: center;
+  padding-top: 2px;
+  font-size: 80%;
 }
