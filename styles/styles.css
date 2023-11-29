@@ -2,11 +2,11 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #2e2a24;
   color: #f8d094;
-  height: 100%;
+  height: 100vh;
   font-size: 100%;
   background: #2e2a24;
   margin: 0;
-  padding: 0 30px;
+  padding: 0;
 }
 .heading1 {
   color: #f8d094;
@@ -19,7 +19,7 @@ body {
   text-align: center;
 }
 p {
-  font-weight: bold;
+  font-size: 14px;
 }
 .search {
   width: 250px;
@@ -34,11 +34,7 @@ p {
 a {
   color: #f8d094;
 }
-section ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
+
 section.information {
   border-top: 1px solid rgba(0, 0, 0, 0.5);
   text-align: center;
@@ -58,22 +54,11 @@ h2 {
   display: block;
 }
 
-.col-1 {
-  width: 49%;
-  float: left;
-  padding: 0 0 1em;
-}
-.col-2 {
-  width: 49%;
-  float: right;
-  padding: 0 0 1em;
-  justify-content: space-between;
-}
 .question {
   color: white;
   text-align: center;
   justify-content: center;
-  padding-right: 50px;
+  
 }
 .brew {
   text-align: center;
@@ -83,4 +68,24 @@ section.footer {
   text-align: center;
   padding-top: 2px;
   font-size: 80%;
+}
+
+.info-container {
+  padding-top: 120px;
+  padding-bottom: 60px;
+  margin-top: 40px;
+  width: 70rem;
+  margin: auto;
+  border-bottom: 1px solid gray;
+}
+
+.info-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.content-1 {
+  width: 50%;
 }
